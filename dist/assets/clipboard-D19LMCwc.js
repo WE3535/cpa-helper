@@ -1,0 +1,6 @@
+import{c as i}from"./createLucideIcon-cBP00-Pw.js";/**
+ * @license lucide-vue-next v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const y=i("CopyIcon",[["rect",{width:"14",height:"14",x:"8",y:"8",rx:"2",ry:"2",key:"17jyea"}],["path",{d:"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2",key:"zix9uf"}]]);function l(o){const e=document.createElement("textarea"),n=document.activeElement instanceof HTMLElement?document.activeElement:null,t=document.getSelection(),c=t?Array.from({length:t.rangeCount},(r,a)=>t.getRangeAt(a)):[];e.value=o,e.setAttribute("readonly",""),e.style.position="fixed",e.style.top="0",e.style.left="-9999px",e.style.width="1px",e.style.height="1px",e.style.opacity="0",e.style.pointerEvents="none",document.body.appendChild(e),e.focus(),e.select(),e.setSelectionRange(0,e.value.length);try{return document.execCommand("copy")}finally{document.body.removeChild(e),t&&(t.removeAllRanges(),c.forEach(r=>t.addRange(r))),n==null||n.focus({preventScroll:!0})}}async function d(o){var e;if(!o)throw new Error("没有可复制的内容");try{if((e=navigator.clipboard)!=null&&e.writeText){await navigator.clipboard.writeText(o);return}}catch{}if(!l(o))throw new Error("复制失败，请手动选中后复制")}export{y as C,d as c};

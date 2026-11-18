@@ -1,0 +1,16 @@
+db/
+logs/
+*.sqlite
+*.sqlite3
+*.db
+*.log
+hermes-api-key
+*.bak-*
+._*
+.DS_Store
+.hermes/
+
+# Deployment-only runtime settings and local test artifacts
+runtime-settings.js
+__pycache__/
+*.pyc

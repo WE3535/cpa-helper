@@ -1,0 +1,20 @@
+{
+  "channel": "antigravity",
+  "aliases": [
+    {
+      "name": "claude-sonnet-4-6",
+      "alias": "claude-antigravity-sonnet-4-6",
+      "fork": true
+    },
+    {
+      "name": "claude-opus-4-6",
+      "alias": "claude-antigravity-opus-4-6",
+      "fork": true
+    },
+    {
+      "name": "claude-opus-4-6-thinking",
+      "alias": "claude-antigravity-opus-4-6-thinking",
+      "fork": true
+    }
+  ]
+}
